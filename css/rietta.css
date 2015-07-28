@@ -472,7 +472,7 @@ ol p {
   padding-bottom: 100px;
 }
 
-.panel-orange-image {
+.panel-about-image {
   background-image: url(../img/conference.jpg);
   background-repeat: no-repeat;
   background-color: #22205f;
@@ -518,7 +518,7 @@ ol p {
 .secondary-bar {
   width: 100%;	
   background-color: #373996;
-  height: 5%;
+  height: 4%;
   margin-bottom: 10px;
 }
 
@@ -581,14 +581,15 @@ ol p {
 .breadcrumbs {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 10px;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   background: none;
   border: none;
+	margin-top: 10px;
+	margin-left: 80px;
 }
 
 .breadcrumbs p {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .breadcrumbs a {

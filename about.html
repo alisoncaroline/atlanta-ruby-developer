@@ -16,67 +16,57 @@
     <script src="js/foundation/foundation.js"></script>
     <script src="js/foundation/foundation.equalizer.js"></script>
     
-    
-    <style>
-			body {
-					background-image: url("img/noise.png");
-			}
-		</style>
-    
-  </head>
-  <body>
        
-      <div class="dark-panel">  
-      <div class="row">
-        <div class="large-3 columns">
-          <h1><img src="img/ruby_services_by_rietta_white_350.png"></a></h1>
-        </div>
-        <div class="large-9 columns top-bar-section">
-          <ul class="right button-group">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Why Us</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </div>  
-       </div>
-      </div> 
-      </div> 
+ <nav class="top-bar" id="site-header" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#"><img src="img/ruby_services_by_rietta_white_350.png" alt="Ruby Development Service by Rietta"></a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Why Us</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </section>
+</nav>
       
+     
+
+
       
         <div class="secondary-bar">
-        	<div class="row">
-          	<div class="large-12 columns">
-           	 <h3 class="white">About Our Team</h3>
-            </div> 
-          </div>  
-        </div>
-        
-        <div class="row">	
-      	  <div class="large-12 columns">
+          	 <div class="large-12 columns">
       			<div class="breadcrumbs">
          		 	<p class="grey"><a href="#">HOME</a> &#8250;&#8250;  Rietta Team</p>
         	  </div>
        	  </div> 
-     	  </div>
+        </div>
+        
         
         
          <div class="row centered">  
         	<div class="large-12 columns">
-         		<h2>What We Do</h2>
+         		<h2>About Our Team</h2>
             <p>We deliver software in short, one week, iterations for startups, enterprises releasing new products, and even government agencies that need extra security.</p>
           </div>
         </div>
        
-       <div class="panel-light-image"> 
+       <div class="panel"> 
         <div class="row">  
           <div class="large-6 columns centered">
               <p><img src="img/about-frank.png" alt="Rietta Process"></p>
               <h2>Frank Rietta, M.S.I.S.</h2>
           </div>
-          <div class="large-6 columns">
+          <div class="large-6 columns borderleft">
             <h3><strong>Senior Developer</strong></h3>
             <p class="blue"><em><strong>Mr. Rietta's role is to ensure that your project is designed for security and speed.</strong></em></p>
             <p>With over 16 years of career experience, he is specialized in working with startups, new Internet businesses, and in developing with the Ruby on Rails platform to build scalable businesses.</p>
@@ -90,14 +80,14 @@
         </div>
         </div>
        
-       	<div class="panel-orange-image">
+       	<div class="panel">
          <div class="row">  
           <div class="large-6 columns centered">
               <p><img src="img/about-brandon.png" alt="Rietta Process"></p>
               <h2>Brandon Dees</h2>
           </div>
           
-         <div class="large-6 columns">
+         <div class="large-6 columns borderleft">
             <h3><strong>Developer</strong></h3>
             <p class="blue"><em><strong>Mr. Dees's role is to ensure that your project is built according to best practices, so that it is written beautifully and is free of defects.</strong></em></p>
             <p>Brandon is a full-time Ruby on Rails developer on the Rietta team. Having worked with us since 2012, he has been pivotal in shaping our test driven development practices and shaping our remote pair programming practice that delivers solid, stable software time and time again. Basically, he's the foreman who keeps the whole team, even Frank, in line.</p>
@@ -115,14 +105,13 @@
               <p><img src="img/about-sam.png" alt="Rietta Process"></p>
               <h2>Sam Skinner, PhD</h2>
           </div>
-          <div class="large-6 columns">
+          <div class="large-6 columns borderleft">
             <h3><strong>Account Manager</strong></h3>
             <p class="blue"><em><strong>Mr. Skinner's role is to initiate the coding of projects and build the core architecture on which more specialized features are based.</strong></em></p>
             <p>Sam is the newest member of the Rietta team, serving as our account manager interacting with clients. He also does some of the basic development to kick off projects and keep the team in line. He is a quick study and although relatively new to Ruby on Rails, has quickly mastered many core concepts so that he can advise clients on their projects. Originally trained as a biologist, Sam then spent many years as an entrepreneur managing his own business. Working on a Ruby on Rails development team represents a great new adventure.</p>
             <p>Use this <a class="inline-link" href="https://rietta.com/pgp-pub/sam_skinner_pgp.asc" target="_blank">PGP key</a> to send sensitive content to Sam. His public key is also at <a class="inline-link" href="https://keybase.io/samskinnerphd" target="_blank">rietta on keybase</a>.</p>
            
-            <a class="social-media" href="https://twitter.com/frankrietta" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
-            <a class="social-media" href="https://www.linkedin.com/in/fsrietta" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+            <a class="social-media" href="https://www.linkedin.com/in/samskinnerphd" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
           </div>
         </div>
         </div>
@@ -146,7 +135,7 @@
                     <div class="row">
                       <div class="large-6 columns">
                         <label>
-                          <input type="text" placeholder="Your Name" />
+                          <input type="text" placeholder="Full Name" />
                         </label>
                       </div>
                       <div class="large-6 columns">
@@ -158,7 +147,7 @@
                     <div class="row">
                       <div class="large-6 columns">
                         <label>
-                          <input type="text" placeholder="Phone Number (Optional)" />
+                          <input type="text" placeholder="Phone Number" />
                         </label>
                       </div>
                       <div class="large-6 columns">
